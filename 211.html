@@ -1,0 +1,47 @@
+<IMG height=155 hspace=0 src="http://www.apress.com/books/coverGraphics/medium/1893115291.gif" width=125 align=top border=0>
+<FONT face="Arial,Helvetica,Univers,Zurich BT" size=-1>
+<h2>Errata</h2>
+
+<h3>Chapter 3A</h3>
+
+<h4>Page 56</h4>
+
+<p><b>Table 3A</b>, In the PROVIDER SPECIFIC column:<br>
+        Delete the text "and the SQLOLEDB provider with the OleDbConnection class".</p>
+
+
+<h4>Page 93 </h4>
+<p>The text "The ConnectionString property will let you set the value name to a value less than 0, but the validation will not take place until you open the connection. This is when the ArgumentException is thrown." should be deleted as this behavior has changed, meaning the exception is thrown immediately.</p>
+
+
+<h4>Page 94</h4>
+<p>The text "Whenever an error occurs when you are working with the OLE DB.NET Data Provider, an OleDbException is thrown."
+should be changed to "Whenever an error occurs when you are working with the OLE DB.NET Data Provider, that the OleDbDataAdapter cannot handle, an OleDbException is thrown." as this behavior has changed.</p>
+
+
+<h4>Page 111</h4> 
+<p><b>Listing 3A-23</b><br>
+        Change ArgumentException on line 4 to NotSupportedException, as this has changed.</p>
+
+
+<h4>Page 131</h4>
+<p><b> Listing 3A-29</b><br>
+        Change "SELECT * FROM tblUser" on line 14 to "SELECT * FROM tblUser FOR XML AUTO".
+</p>
+
+<h4>Page 138</h4>
+
+<b>Listing 3A-32</b> 
+        <p>Change STR_SQL_USER_SELECT on line 2 to STR_SQL_USER_DELETE</p>
+
+        <p>Change STR_SQL_USER_SELECT on line 3 to STR_SQL_USER_INSERT</p>
+
+
+<h3>Chapter 6</h3>
+<h4>Page 309</h4>
+
+<p>Change "Listing 6-7 shows you" to "Listing 6-8 shows you"</p>
+
+
+<p><b>Listing 6-7</b><br>
+Change "Listing 6-7. Manipulating Data in a View Based on a Single Table", to "Listing 6-8. Invoking Trigger and Catching Exception Raised".</p>
